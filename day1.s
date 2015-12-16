@@ -14,7 +14,7 @@ count:
 
     mov     rax, 0x2000003
     mov     rdi, 0
-    lea     rsi, [rsp+8]
+    lea     rsi, [rsp-8]
     mov     rdx, 1
     syscall
 
